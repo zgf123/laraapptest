@@ -11,4 +11,4 @@
 |
 */
 
-Route::get('/', 'PagesController@root')->name('roota');
+Route::get('/', 'PagesController@root')->name('root');
