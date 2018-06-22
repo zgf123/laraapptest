@@ -27,3 +27,7 @@ php artisan vendor:publish --provider="Barryvdh\Debugbar\ServiceProvider"
 
 
 composer require "hieu-le/active:~3.5"
+
+
+composer require "mews/purifier:~2.0"
+php artisan vendor:publish --provider="Mews\Purifier\PurifierServiceProvider"

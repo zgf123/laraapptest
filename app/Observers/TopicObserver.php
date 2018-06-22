@@ -10,6 +10,9 @@ use App\Models\Topic;
 class TopicObserver
 {
     public function saving(Topic $topic){
+        $topic->body = clean($topic->body, 'default');
+
         $topic->excerpt = make_excerpt($topic->body);
+        
     }
 }
