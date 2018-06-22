@@ -18,6 +18,7 @@ Auth::routes();
 Route::resource('users', 'UsersController', ['only' => ['show', 'update', 'edit']]);
 
 Route::resource('topics', 'TopicsController', ['only' => ['index', 'show', 'create', 'store', 'update', 'edit', 'destroy']]);
+Route::get('topics/{topic}/{slug?}', 'TopicsController@show')->name('topics.show');
 Route::post('topics/upload_image', 'TopicsController@upload_image')->name('topics.upload_image');
 
 Route::resource('categories', 'CategoriesController', ['only' => ['show']]);

@@ -31,3 +31,7 @@ composer require "hieu-le/active:~3.5"
 
 composer require "mews/purifier:~2.0"
 php artisan vendor:publish --provider="Mews\Purifier\PurifierServiceProvider"
+
+
+composer require "guzzlehttp/guzzle:~6.3"
+composer require "overtrue/pinyin:~3.0"
