@@ -40,3 +40,7 @@ composer require "overtrue/pinyin:~3.0"
 composer require "predis/predis:~1.0"
 composer require "laravel/horizon:~1.0"
 php artisan vendor:publish --provider="Laravel\Horizon\HorizonServiceProvider"
+
+
+composer require "spatie/laravel-permission:~2.7"
+php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
