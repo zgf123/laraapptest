@@ -44,3 +44,11 @@ php artisan vendor:publish --provider="Laravel\Horizon\HorizonServiceProvider"
 
 composer require "spatie/laravel-permission:~2.7"
 php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
+
+
+composer require "viacreative/sudo-su:~1.1"
+app/Providers/AppServiceProvider.php
+if (app()->isLocal()) {
+    $this->app->register(\VIACreative\SudoSu\ServiceProvider::class);
+}
+php artisan vendor:publish --provider="VIACreative\SudoSu\ServiceProvider"
