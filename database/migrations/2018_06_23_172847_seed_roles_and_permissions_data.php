@@ -20,17 +20,17 @@ class SeedRolesAndPermissionsData extends Migration
         //
         app()['cache']->forget('spatie.permission.cache');
 
-        Permission::create(['name'=>'manager_contents']);
-        Permission::create(['name'=>'manager_users']);
+        Permission::create(['name'=>'manage_contents']);
+        Permission::create(['name'=>'manage_users']);
         Permission::create(['name'=>'edit_settings']);
 
         $founder = Role::create(['name'=>'Founder']);
-        $founder->givePermissionTo('manager_contents');
-        $founder->givePermissionTo('manager_users');
+        $founder->givePermissionTo('manage_contents');
+        $founder->givePermissionTo('manage_users');
         $founder->givePermissionTo('edit_settings');
 
         $maintainer = Role::create(['name'=>'Maintainer']);
-        $maintainer->givePermissionTo('manager_contents');
+        $maintainer->givePermissionTo('manage_contents');
     }
 
     /**
