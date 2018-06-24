@@ -52,3 +52,13 @@ if (app()->isLocal()) {
     $this->app->register(\VIACreative\SudoSu\ServiceProvider::class);
 }
 php artisan vendor:publish --provider="VIACreative\SudoSu\ServiceProvider"
+
+
+export EDITOR=vi
+crontab -e
+* * * * * php /home/vagrant/Code/larabbs/artisan schedule:run >> /dev/null 2>&1
+使用键盘上的方向键将光标移动到最底端；
+然后按键盘上的 『小写 o 键』进入 INSERT 模式；
+黏贴上面这一行；
+黏贴成功后按下键盘左上角的『ESC 键』进入 VI 的命令模式；
+键盘输入 :wq 并敲击回车键保存退出。
