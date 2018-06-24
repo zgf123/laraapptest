@@ -11,14 +11,14 @@ class AddReferences extends Migration
      *
      * @return void
      */
-    public function up()
-    {
-        Schema::table('topics', function(Blueprint $table){
+    public function up(){
+        Schema::table('topics', function (Blueprint $table) {
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
 
-        Schema::table('replies', function(Blueprint $table){
+        Schema::table('replies', function (Blueprint $table) {
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+
             $table->foreign('topic_id')->references('id')->on('topics')->onDelete('cascade');
         });
     }
@@ -28,15 +28,14 @@ class AddReferences extends Migration
      *
      * @return void
      */
-    public function down()
-    {
-        Schema::table('topics', function(Blueprint $table){
-            $table->dropForeign('user_id');
+    public function down(){
+        Schema::table('topics', function (Blueprint $table) {
+            $table->dropForeign(['user_id']);
         });
 
-        Schema::table('replies', function(Blueprint $table){
-            $table->dropForeign('topic_id');
-            $table->dropForeign('user_id');
+        Schema::table('replies', function (Blueprint $table) {
+            $table->dropForeign(['topic_id']);
+            $table->dropForeign(['user_id']);
         });
     }
 }
