@@ -1,4 +1,7 @@
-#laravel-niconico
+#laravel-laraapp
+
+composer config -g repo.packagist compoer https://packagist.npm.tao.org
+composer install
 
 yarn config set registry https://registry.npm.taobao.org
 yarn install
