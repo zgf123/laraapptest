@@ -1,0 +1,215 @@
+[33mcommit 8bf29309e95d1b8aa3cd0f749910d6bd9f7cad77[m
+Author: zgf123 <277845885@qq.com>
+Date:   Fri Jun 29 21:19:59 2018 +0000
+
+    change
+
+[33mcommit 1d0935490e5a253fa7e2bd964dcbc1e2a199aad0[m
+Author: zgf123 <277845885@qq.com>
+Date:   Fri Jun 29 21:02:09 2018 +0000
+
+    note
+
+[33mcommit 76f6a809cbb6a3e8c711214a7d73dbb7e92471e1[m
+Author: zgf123 <277845885@qq.com>
+Date:   Sun Jun 24 18:35:26 2018 +0000
+
+    redis corn schedule dailyat
+
+[33mcommit a7708619c7d3e5dcdb4d5c90a466716e3860b425[m
+Author: zgf123 <277845885@qq.com>
+Date:   Sun Jun 24 14:41:30 2018 +0000
+
+    default avatar
+
+[33mcommit 2d6cd64ba702373192f47ae9423b64d09171a6c4[m
+Author: zgf123 <277845885@qq.com>
+Date:   Sun Jun 24 14:38:48 2018 +0000
+
+    index
+
+[33mcommit 815cb671006994973132400a653e32e2cb1f9b9a[m
+Author: zgf123 <277845885@qq.com>
+Date:   Sun Jun 24 14:35:09 2018 +0000
+
+    cache forget
+
+[33mcommit fc378adac0e01943b56bc53f68a6fea2621297a4[m
+Author: zgf123 <277845885@qq.com>
+Date:   Sun Jun 24 11:05:10 2018 +0000
+
+    trait command cron
+
+[33mcommit 2a01fb44bf83eb65cb1dea78f2da2ba02428aed2[m
+Author: zgf123 <277845885@qq.com>
+Date:   Sun Jun 24 09:07:05 2018 +0000
+
+    vi crontab -e :wq
+
+[33mcommit 2de49b78fbab73eaed3443a75e077bee6fa01cb1[m
+Author: zgf123 <277845885@qq.com>
+Date:   Sun Jun 24 04:05:52 2018 +0000
+
+    administrator
+
+[33mcommit ac654c7038901fd8725ee2ed887958eb07bb9436[m
+Author: zgf123 <277845885@qq.com>
+Date:   Sat Jun 23 19:09:06 2018 +0000
+
+    change permission
+
+[33mcommit 67ef9c704e185ca041e44699bf67621e50150b9c[m
+Author: zgf123 <277845885@qq.com>
+Date:   Sat Jun 23 18:24:06 2018 +0000
+
+    sudosu viacreative 1.1
+
+[33mcommit c64f3857c2be7d117aff22b12ad22ea0dcccfda3[m
+Author: zgf123 <277845885@qq.com>
+Date:   Sat Jun 23 17:44:05 2018 +0000
+
+    spatie permission
+
+[33mcommit 5b5153b0b10c8c6e304b57be88a72dfa0ff14db9[m
+Author: zgf123 <277845885@qq.com>
+Date:   Sat Jun 23 10:40:28 2018 +0000
+
+    delete reply topic
+
+[33mcommit 0c578f959b22e2e359e01b0b2241765e60d6e708[m
+Author: zgf123 <277845885@qq.com>
+Date:   Sat Jun 23 10:12:10 2018 +0000
+
+    email notification
+
+[33mcommit 2f21623fa11ce941741f69740777d9d52bca4dc9[m
+Author: zgf123 <277845885@qq.com>
+Date:   Sat Jun 23 09:57:38 2018 +0000
+
+    nitifications
+
+[33mcommit 349309a3ab90897c09edd310e4af9e32b1a44ce8[m
+Author: zgf123 <277845885@qq.com>
+Date:   Sat Jun 23 06:39:34 2018 +0000
+
+    fabu reply
+
+[33mcommit 02bb80f3b930f53ad7437062e588bf4718a70862[m
+Author: zgf123 <277845885@qq.com>
+Date:   Sat Jun 23 04:30:32 2018 +0000
+
+    reply
+
+[33mcommit 0343a57f8ad03bc7deda0b6590b3bdafbb552885[m
+Author: zgf123 <277845885@qq.com>
+Date:   Sat Jun 23 03:29:15 2018 +0000
+
+    use avatar
+
+[33mcommit 42e66257731d9f5f0a1f20384fed82b682835a1a[m
+Author: zgf123 <277845885@qq.com>
+Date:   Fri Jun 22 18:23:32 2018 +0000
+
+    redis horizon queue
+
+[33mcommit 20d9f21127e465a03bce7a8d0173ccd7996bd976[m
+Author: zgf123 <277845885@qq.com>
+Date:   Fri Jun 22 16:37:59 2018 +0000
+
+    slug seo
+
+[33mcommit af55402995f381cad8b592d1ec65ed70ca4adb64[m
+Author: zgf123 <277845885@qq.com>
+Date:   Fri Jun 22 15:55:24 2018 +0000
+
+    purifier
+
+[33mcommit 2ef4588aa5b0e16858f3bef28b9b0b6ab8401d75[m
+Author: zgf123 <277845885@qq.com>
+Date:   Fri Jun 22 15:43:02 2018 +0000
+
+    upload img
+
+[33mcommit 661b801d91eb287c30322e11ff05464f66cbd2b4[m
+Author: zgf123 <277845885@qq.com>
+Date:   Thu Jun 21 14:49:11 2018 +0000
+
+    topic list
+
+[33mcommit 41e2877ffbe7905199fc82c25786228d270b071d[m
+Author: zgf123 <277845885@qq.com>
+Date:   Thu Jun 21 12:47:40 2018 +0000
+
+    anzhuangchajian
+
+[33mcommit d9647dc7bf3b0c03b618450a3d272879c624ce05[m
+Author: zgf123 <277845885@qq.com>
+Date:   Wed Jun 20 17:31:20 2018 +0000
+
+    add policy
+
+[33mcommit 268ca3dda74f4879595e3a488b6054dddaa24db7[m
+Author: zgf123 <277845885@qq.com>
+Date:   Wed Jun 20 17:27:38 2018 +0000
+
+    uppic
+
+[33mcommit 5caf6e18ca2011e4cc9726724a3bcae5d2384a9f[m
+Author: zgf123 <277845885@qq.com>
+Date:   Wed Jun 20 15:12:05 2018 +0000
+
+    up
+
+[33mcommit 278d5267396e62330f7a5ecb49208ead37808ccd[m
+Author: zgf123 <277845885@qq.com>
+Date:   Mon Jun 18 12:10:07 2018 +0000
+
+    showinfo
+
+[33mcommit 6ec9f0ac313c52f1ab87162db4fa9d52303d2ddf[m
+Author: zgf123 <277845885@qq.com>
+Date:   Mon Jun 18 10:02:27 2018 +0000
+
+    make view users
+
+[33mcommit bd31e5e50511893d85eebf9b3446cdf31c6a947d[m
+Author: zgf123 <277845885@qq.com>
+Date:   Mon Jun 18 09:35:00 2018 +0000
+
+    add captcha
+
+[33mcommit 6c4535aaf055a2de384336b62eb1aefc2a0fe48d[m
+Author: zgf123 <277845885@qq.com>
+Date:   Mon Jun 18 08:20:24 2018 +0000
+
+    dengluzhuce
+
+[33mcommit 477679705a238e88821be08d1c5ef6dc50419c49[m
+Author: zgf123 <277845885@qq.com>
+Date:   Mon Jun 18 07:12:38 2018 +0000
+
+    shanc
+
+[33mcommit f6b22f11a31b51874bcd0f1fbff749ec518d60b0[m
+Author: zgf123 <277845885@qq.com>
+Date:   Mon Jun 18 07:08:58 2018 +0000
+
+    ceshi
+
+[33mcommit f6612f3ef17047098f939f72a7a37487876960a1[m
+Author: zgf123 <277845885@qq.com>
+Date:   Mon Jun 18 07:00:43 2018 +0000
+
+    aaa
+
+[33mcommit 826344e346be794117850a9b709c068566763c4f[m
+Author: zgf123 <277845885@qq.com>
+Date:   Mon Jun 18 06:57:59 2018 +0000
+
+    change
+
+[33mcommit e835cf3b3ee57cfeadcead8a764640a81986d593[m
+Author: zgf123 <277845885@qq.com>
+Date:   Mon Jun 18 05:33:16 2018 +0000
+
+    msg
