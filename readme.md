@@ -1,6 +1,6 @@
 #laravel-laraapp
 
-composer config -g repo.packagist compoer https://packagist.npm.tao.org
+composer config -g repo.packagist composer https://packagist.phpcomposer.com
 composer install
 
 yarn config set registry https://registry.npm.taobao.org
