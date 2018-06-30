@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8b90423ad3edc793512c6be96a3da4d7",
+    "content-hash": "e353d4fb5c035ebb6a4ebd91508f387c",
     "packages": [
         {
             "name": "cakephp/chronos",
@@ -1854,6 +1854,47 @@
                 "php"
             ],
             "time": "2018-06-03T11:33:10+00:00"
+        },
+        {
+            "name": "overtrue/easy-sms",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/overtrue/easy-sms.git",
+                "reference": "de84d31792048b37bac5c48d7fd52707b0585037"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/overtrue/easy-sms/de84d31792048b37bac5c48d7fd52707b0585037.zip",
+                "reference": "de84d31792048b37bac5c48d7fd52707b0585037",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.2",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "mockery/mockery": "1.0.x-dev",
+                "phpunit/phpunit": "^5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Overtrue\\EasySms\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "overtrue",
+                    "email": "i@overtrue.me"
+                }
+            ],
+            "description": "The easiest way to send short message.",
+            "time": "2018-06-27T06:24:29+00:00"
         },
         {
             "name": "overtrue/pinyin",
