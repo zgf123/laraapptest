@@ -65,3 +65,14 @@ crontab -e
 黏贴上面这一行；
 黏贴成功后按下键盘左上角的『ESC 键』进入 VI 的命令模式；
 键盘输入 :wq 并敲击回车键保存退出。
+
+
+"dingo/api": "2.0.0-alpha2"
+composer require dingo/api:2.0.0-alpha2
+composer update
+
+
+composer require "overtrue/easy-sms"
+
+
+composer require doctrine/dbal
