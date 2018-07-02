@@ -76,3 +76,6 @@ composer require "overtrue/easy-sms"
 
 
 composer require doctrine/dbal
+
+
+composer require gregwar/captcha
