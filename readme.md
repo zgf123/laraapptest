@@ -79,3 +79,6 @@ composer require doctrine/dbal
 
 
 composer require gregwar/captcha
+
+
+composer require socialiteproviders/weixin
