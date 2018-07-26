@@ -47,6 +47,12 @@ $api->version('v1',[
         //需要验证token
         $api->group(['middleware' => 'api.auth'],function($api){
             $api->get('user', 'UsersController@me')->name('api.user.show');
+
+            //上传图片
+            $api->post('images', 'ImagesController@store')->name('api.image.store');
+
+            //更新用户信息
+            $api->patch('user', 'UsersController@update')->name('api.user.update');
         });
     });
 });
