@@ -53,7 +53,7 @@ $api->version('v1',[
         // 游客可以访问的接口
         $api->get('categories', 'CategoriesController@index')->name('api.categories.index');
         $api->get('topics', 'TopicsController@index')->name('api.topics.index');
-        $api->get('topics/{topic}', 'TopicsController@show')->name();
+        $api->get('topics/{topic}', 'TopicsController@show')->name('api.topics.show');
         $api->get('users/{user}/topics', 'TopicsController@userIndex')->name('api.users.topics.index');
         // 需要 token 验证的接口
         $api->group(['middleware' => 'api.auth'], function($api) {
@@ -67,6 +67,8 @@ $api->version('v1',[
             $api->post('topics', 'TopicsController@store')->name('api.topics.store');
             $api->patch('topics/{topic}', 'TopicsController@update')->name('api.topics.update');
             $api->delete('topics/{topic}', 'TopicsController@destroy')->name('api.topics.destroy');
+            //话题回复
+            $api->post('topics/{topic}/replies', 'RepliesController@store')->name('api.topics.replies.store');
         });
     });
 });
