@@ -24,6 +24,7 @@ class UserRequest extends FormRequest
                     'verification_code' => 'required|string',
                 ];
                 break;
+            case 'PUT':
             case 'PATCH':
                 return [
                     'name' => 'required|regex:/^[a-zA-Z0-9\-\_]+$/|unique:users,name,' . $userId,
